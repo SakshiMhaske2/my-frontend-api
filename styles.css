@@ -1,0 +1,29 @@
+/* Styling for the container */
+.container {
+    background-color: yellow;  /* Yellow background */
+    border: 2px solid #000;    /* Black border */
+    padding: 20px;
+    width: 420px;              /* Width of the container */
+    margin: 0 auto;            /* Center the container */
+    text-align: center;        /* Center align the content */
+}
+
+/* Heading styling */
+h1 {
+    margin-bottom: 10px;
+}
+
+/* Image styling */
+img {
+    display: block;
+    width: 100%;               /* Make the image fit the container */
+    height: auto;
+    object-fit: cover;          /* Keep the aspect ratio */
+}
+
+/* Styling for the visitor count */
+#visitor-count {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
